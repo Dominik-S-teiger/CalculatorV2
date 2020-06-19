@@ -1,6 +1,9 @@
 
 public class MathAlgo {
-	private static double iii = 0.00123; //číslo co se vrátí když se něco podělá :)
+	private static void iii(){
+	System.err.println("Error has suddenly occured"); //error system
+	}
+	
 
 	public static double Mmulti(double a, double b) {
 		return a * b;
