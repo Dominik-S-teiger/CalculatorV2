@@ -9,26 +9,17 @@ public class Main {
 		String konec = "konec";
 		boolean p;
 
-		System.err.println("Kalkulaèka verze: 2.0");
-		System.out.println("\nsèítání: \t+ ");
-		System.out.println("odèítaní: \t-");
-		System.out.println("násobení: \t*");
-		System.out.println("dìlení: \t/");
-		System.out.println("umocnìní \tmoc (a moc b (b=na kolikátou)");
-		System.out.println("odmocnìní \todm (druhá odmocnina)");
-		System.out.println("for exit: \tend ");
-		System.out.println("nápovìda: \thelp (zobrazí se tento èlánek)");
-		System.err.println("pøíklady pište v tomto formátu: A + B\n");
+		MathAlgo.help(); //Used the method from MathAlgo
 		while (konec.equalsIgnoreCase("konec")) {
 			p = true;
 			i = 0;
 			do {
 				o = 0;
-				System.out.println("zadej pøíklad:");
+				System.out.println("zadej pÅ™Ã­klad:");
 				try {
 					String MainIn = sc.nextLine();
 					if (MainIn.equalsIgnoreCase("end")) {
-						System.out.println("\nukonèuji program");
+						System.out.println("\nukonÄuji program");
 						System.exit(0);
 					}
 					if (MainIn.equalsIgnoreCase("help")) {
@@ -45,7 +36,7 @@ public class Main {
 					}
 				} catch (Exception e) {
 					if (p == true) {
-						System.err.println("»»»»CHYBA««««");
+						System.err.println("Â»Â»Â»Â»CHYBAÂ«Â«Â«Â«");
 						o = 1;
 					}
 				}
@@ -56,7 +47,7 @@ public class Main {
 			if (i == 1) {
 				System.out.print(c);
 			}
-			System.out.println("\n\nvısledek: ");
+			System.out.println("\n\nvÃ½sledek: ");
 			switch (b) {
 
 			case "+":
