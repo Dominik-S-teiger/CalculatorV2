@@ -1,6 +1,6 @@
 
 public class MathAlgo {
-	private static double iii = 0.00123;
+	private static double iii = 0.00123; //ÄÃ­slo co se vrÃ¡tÃ­ kdyÅ¾ se nÄ›co podÄ›lÃ¡ :)
 
 	public static double Mmulti(double a, double b) {
 		return a * b;
@@ -11,7 +11,7 @@ public class MathAlgo {
 		try {
 			return pom = a / b;
 		} catch (ArithmeticException ex) {
-			System.out.println("Numerická chyba");
+			System.out.println("NumerickÃ¡ chyba");
 		}
 		return iii;
 	}
@@ -25,7 +25,7 @@ public class MathAlgo {
 			double pom = a - b;
 			return pom;
 		} catch (ArithmeticException ex) {
-			System.out.println("Numerická chyba");
+			System.out.println("NumerickÃ¡ chyba");
 		}
 		return iii;
 	}
@@ -51,7 +51,7 @@ public class MathAlgo {
 
 			return sr;
 		} catch (ArithmeticException e) {
-			System.out.println("Numerická chyba");
+			System.out.println("NumerickÃ¡ chyba");
 
 		}
 		return iii;
@@ -59,16 +59,16 @@ public class MathAlgo {
 
 	public static void help() {
 		System.out.println("=========================================");
-		System.out.println("Kalkulaèka verze: 2.0");
-		System.out.println("\nsèítání: \t+ ");
-		System.out.println("odèítaní: \t-");
-		System.out.println("násobení: \t*");
-		System.out.println("dìlení: \t/");
-		System.out.println("umocnìní \tmoc (a moc b (b=na kolikátou)");
-		System.out.println("odmocnìní \todm (druhá odmocnina)");
+		System.out.println("KalkulaÄka verze: 2.0");
+		System.out.println("\nsÄÃ­tÃ¡nÃ­: \t+ ");
+		System.out.println("odÄÃ­tanÃ­: \t-");
+		System.out.println("nÃ¡sobenÃ­: \t*");
+		System.out.println("dÄ›lenÃ­: \t/");
+		System.out.println("umocnÄ›nÃ­ \tmoc (a moc b (b=na kolikÃ¡tou)");
+		System.out.println("odmocnÄ›nÃ­ \todm (druhÃ¡ odmocnina)");
 		System.out.println("for exit: \tend ");
-		System.out.println("nápovìda: \thelp (zobrazí se tento èlánek)");
-		System.out.println("pøíklady pište v tomto formátu: A + B");
+		System.out.println("nÃ¡povÄ›da: \thelp (zobrazÃ­ se tento ÄlÃ¡nek)");
+		System.out.println("pÅ™Ã­klady piÅ¡te v tomto formÃ¡tu: A + B");
 		System.out.println("=========================================");
 
 	}
